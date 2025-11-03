@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.equalTo;
 
-public class PostmanEchoApiTest {
+public class EchoApiTest {
     @Test
     void shouldPost(){
         given()
